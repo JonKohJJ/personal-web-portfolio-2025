@@ -15,9 +15,9 @@ export default function WorkExperienceCard({
     skills: string[]
 }) {
     return (
-        <div className='work-experience-card flex flex-col gap-2'>   
-            <p className='text-xs'>{date}</p>
-            <div className='flex flex-col gap-2'>
+        <div className='work-experience-card flex flex-col gap-2 lg:flex-row lg:gap-6'>   
+            <p className='text-xs lg:w-[25%] lg:mt-1'>{date}</p>
+            <div className='flex flex-col gap-2 lg:w-[75%]'>
                 <p className='font-bold'>{title} · {company}</p>
                 <p className='text-sm'>{description}</p>
 
@@ -33,32 +33,32 @@ export default function WorkExperienceCard({
 
 export const WorkExperience = [
     {
-      date: "NOVEMBER 2023 – PRESENT",
+      date: "NOV 2023 - PRESENT",
       title: "Fullstack Software Engineer",
       company: "Singapore Press Holdings (SPH)",
-      description: "Worked on a React + TypeScript web application for managing church donations and finances. Led the refactor from traditional architecture to a modular React component system.",
+      description: "I build dynamic UIs and maintain backend services using NodeJS and Python for reliable content delivery. Working within agile teams, I contribute to feature planning, ensure code quality, and integrate third-party services. Currently focused on developing an internal analytics platform that enables teams to create audience segments through custom data queries and provides actionable insights via scalable, data-driven interfaces.",
       skills: ["Typescript", "Python", "Reactjs", "Tailwind", "Nodejs", "AWS"]
     },
     {
-      date: "SEPTEMBER 2021 - OCTOBER 2023",
+      date: "SEPT 2021 - OCT 2023",
       title: "Frontend Web Developer",
       company: "New Creation Church (NCC)",
-      description: "Built and maintained responsive UI components for enterprise clients, collaborated with design and backend teams, and improved overall UX and site performance.",
+      description: "Developed and debugged 30+ SPAs in Webflow using HTML, CSS, and JavaScript over 2 years, while streamlining development by consulting on design feasibility and building reusable, scalable UI components.",
       skills: ["HTML", "CSS", "Javascript", "Webflow"]
     },
     {
-      date: "MARCH 2021 - SEPTEMBER 2021",
+      date: "MAR 2021 - SEPT 2021",
       title: "System Analyst",
       company: "Grab Financial Group (Contract)",
-      description: "Performed in-depth collection analysis, designed and implemented various loan collection strategies; Loan recovery rates increased from 87% to 93%, helping the company recover additional SDG$0.33M over 2 months period, with users reported enhanced operational efficiency and smoother day-to-day operations on the platform.",
-      skills: ["this", "that" ]
+      description: "Boosted loan recovery rates from 87% to 93% through strategic collection initiatives, recovering an extra SGD$0.33M in 2 months and improving platform efficiency for users.",
+      skills: ["SQL", "UAT", "CRM Databases"]
     },
     {
-        date: "AUGUST 2020 - DECEMBER 2020",
+        date: "AUG 2020 - DEC 2020",
         title: "Data Engineer",
         company: "Alibaba Group (Contract)",
-        description: "Contributed to NLP tasks such as web crawling for data acquisition and continuous language model training for a competitive bidding process, resulting in an 8% improvement in the model’s accuracy and securing the contract.",
-        skills: ["NLP", "Regex"]
+        description: "Improved NLP model accuracy by 8% through web crawling and continuous training, helping win a competitive contract.",
+        skills: ["NLP", "Regex", "Web Crawling"]
     }
 ]
   

@@ -1,16 +1,16 @@
-import { ArrowUpRight, Github, Linkedin } from "lucide-react";
-import Link from "next/link";
+import { Github, Linkedin } from "lucide-react";
 import WorkExperienceCard, { WorkExperience } from "../components/WorkExperienceCard";
 import ProjectCard, { FeaturedProjects } from "@/components/ProjectCard";
+import MyLink from "@/components/MyLink";
 
 export default function Home() {
   return (
     <div className="flex justify-center">
-      <div className="container py-20 px-10 flex flex-col gap-24">
+      <div className="container py-20 lg:pb-50 px-10 max-w-[1200px] flex flex-col gap-24 md:flex-row">
 
-        <div className="profile flex flex-col gap-8">
+        <div className="profile flex flex-col gap-8 md:w-[40%] md:sticky md:top-12 md:self-start">
 
-          <div className="profile-top flex flex-col gap-2">
+          <div className="profile-top flex flex-col gap-4 mb-4">
             <p className="text-4xl font-bold">Jonathan Koh</p>
             <p>Fullstack Software Engineer @ Singapore Press Holdings</p>
             <p className="text-sm italic">Building robust, enjoyable software—lately leaning into low-level engineering and complex, data-driven systems.</p>
@@ -18,45 +18,63 @@ export default function Home() {
 
           <div className="socials">
             <div className="flex gap-2">
-              <Link href="https://www.linkedin.com/in/jonathankohjj" target="_blank"><Linkedin className="w-5 h-5"/></Link>
-              <Link href="https://github.com/JonKohJJ" target="_blank"><Github className="w-5 h-5"/></Link>
+              <MyLink href="https://www.linkedin.com/in/jonathankohjj">
+                <Linkedin className="w-5 h-5"/>
+              </MyLink>
+
+              <MyLink href="https://github.com/JonKohJJ">
+                <Github className="w-5 h-5"/>
+              </MyLink>
             </div>
           </div>
 
           <div className="resume">
-            <Link href={'/Jonathan_Koh_SWE_Resume.pdf'} target="_blank" className="flex items-center w-fit">
-              <p>View resume</p>
-              <ArrowUpRight className="w-3 h-3"/>
-            </Link>
+            <MyLink href={'/Jonathan_Koh_SWE_Resume.pdf'}>
+                <p>view resume</p>
+            </MyLink>
           </div>
 
           <div className="past-portfolios">
             <div className="text-xs flex flex-col gap-1">
               <p>past portfolios</p>
-              <Link href="https://jonkohjj.github.io/Personal-Web-Portfolio-2021/" target="_blank" className="flex items-center w-fit">
-                <p>2021</p>
-                <ArrowUpRight className="w-3 h-3"/>
-              </Link>
-              <Link href="" target="_blank" className="flex items-center w-fit">
-                <p>2024</p>
-                <ArrowUpRight className="w-3 h-3"/>
-              </Link>
+
+              <MyLink href="https://jonkohjj.github.io/Personal-Web-Portfolio-2021">
+                  <p>2021</p>
+              </MyLink>
+
+              <MyLink href="">
+                  <p>2024</p>
+              </MyLink>
             </div>
           </div>
 
         </div>
 
-        <div className="details flex flex-col gap-24">
+        <div className="details flex flex-col gap-24 md:w-[60%]">
 
           <div className="about">
-            <p className="font-bold text-xl mb-6">About</p>
-            <p className="text-sm">👋 Hi, I’m Jonathan, thanks for stopping by!</p>
-            <p className="p-2"></p>
-            <p className="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi error repellat amet ut molestias, necessitatibus quidem enim alias sed officiis magnam maiores porro consectetur odio, esse vel perferendis? Repellendus, consequuntur.</p>
+            <p className="font-bold text-2xl mb-12">About</p>
+
+            <div className="flex flex-col gap-6">
+              <p className="text-sm">👋 Hi, I’m Jonathan, thanks for stopping by!</p>
+              <p className="text-sm">
+                I’m a frontend-focused Fullstack Engineer with a strong interest in building purposeful digital experiences. 
+                Starting my journey in frontend development, I’ve since expanded into backend maintenance using Python and Node.js at SPH, while independently building fullstack applications with frameworks like Next.js and a range of modern tools such as Drizzle, Zod, and others.
+              </p>
+              <p className="text-sm">
+                My passion lies in solving real-world problems through code—like creating a personal finance tracker, Tithely, to manage my spending more effectively. 
+                I value clean, readable codebases, and I’m motivated by the power of automation, long-term maintainability, and the ability to turn simple ideas into products that live on.
+              </p>
+              <p className="text-sm">
+                While I’m still growing in architectural and strategic influence, I’m proud of transitioning from a data-related background into software engineering and web development. 
+                I’m currently deepening my technical skill set by exploring lower-level languages like Go, C and Haskell, with an eye toward more systems-level thinking. 
+                I’m especially drawn to fintech, where I hope to merge my interest in personal finance with meaningful engineering challenges. Roles like quantitative developer intrigue me as potential next steps in my journey.
+              </p>
+            </div>
           </div>
 
           <div className="work-experience">
-            <p className="font-bold text-xl mb-6">Experience</p>
+            <p className="font-bold text-2xl mb-12">Professional Experience</p>
             <div className="flex flex-col gap-20">
               {WorkExperience.map((item, index) => 
                 <WorkExperienceCard
@@ -68,7 +86,7 @@ export default function Home() {
           </div>
 
           <div className="featured-projects">
-            <p className="font-bold text-xl mb-6">Featured Projects</p>
+            <p className="font-bold text-2xl mb-12">Featured Projects</p>
             <div className="flex flex-col gap-20">
               {FeaturedProjects.map((item, index) => 
                 <ProjectCard
@@ -78,6 +96,7 @@ export default function Home() {
               )}
             </div>
           </div>
+
         </div>
 
       </div>
