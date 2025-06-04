@@ -81,7 +81,7 @@ export const FeaturedProjects = [
       livesite_link: "https://tithely-end-game.vercel.app/",
       github_link: "https://github.com/JonKohJJ/tithely-end-game",
       skills: ["Typescript", "Nextjs", "Server Actions", "Streaming + Suspense", "Zod Validation", "Tailwind", "Drizzle ORM", "PostgreSQL", "Supabase", "Clerk", "Stripe"],
-      image_url: "/tithely.png"
+      image_url: "./tithely.png"
     },
     {
       date: "2025",
