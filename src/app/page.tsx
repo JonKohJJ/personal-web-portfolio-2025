@@ -30,7 +30,7 @@ export default function Home() {
 
           <div className="resume">
             <MyLink href={'/Jonathan_Koh_SWE_Resume.pdf'}>
-                <p>view resume</p>
+                view resume
             </MyLink>
           </div>
 
@@ -39,11 +39,11 @@ export default function Home() {
               <p>past portfolios</p>
 
               <MyLink href="https://jonkohjj.github.io/Personal-Web-Portfolio-2021">
-                  <p>2021</p>
+                  2021
               </MyLink>
 
               <MyLink href="">
-                  <p>2024</p>
+                  2024
               </MyLink>
             </div>
           </div>

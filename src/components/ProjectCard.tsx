@@ -46,11 +46,11 @@ export default function ProjectCard({
                                     <p>{date}</p>
 
                                     <MyLink href={github_link}>
-                                        <p>repo</p>
+                                        repo
                                     </MyLink>
 
                                     <MyLink href={livesite_link}>
-                                        <p>livesite</p>
+                                        livesite
                                     </MyLink>
                                 </div>
                             </>
