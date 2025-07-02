@@ -76,12 +76,32 @@ export default function ProjectCard({
 export const FeaturedProjects = [
     {
       date: "2025",
-      name: "Tithely v2 – Full-Stack Budgeting & Expense Management Saas App",
-      description: "After years of refining, I built Tithely to help me track personal spending and budget smarter. Simple, fast, and designed for real daily use.",
+      name: "Tithely v2 – Full-Stack Budgeting & Expense Management SaaS Application",
+      description: "Built a robust full-stack SaaS app to help users track personal expenses, set budgets, and manage finances efficiently. Features real-time updates, intuitive UI, and data persistence, designed for daily use and long-term financial planning.",
       livesite_link: "https://tithely-end-game.vercel.app/",
       github_link: "https://github.com/JonKohJJ/tithely-end-game",
       skills: ["Typescript", "Nextjs", "Server Actions", "Streaming + Suspense", "Zod Validation", "Tailwind", "Drizzle ORM", "PostgreSQL", "Supabase", "Clerk", "Stripe"],
       image_url: "./images/tithely.png"
+    },
+    {
+      date: "2025",
+      name: "Mortgage Loan & Amortisation Calculator",
+      description: "Built a user-friendly mortgage calculator with real-time inputs and dynamic amortisation tables. Designed for clarity and usability, enabling users to understand monthly payments, interest accumulation, and total repayment costs over time.",
+      livesite_link: "",
+      github_link: "",
+      skills: ["Python", "Streamlit", "Data Visualization", "Financial Modeling"],
+      image_url: "",
+      coming_soon: true,
+    },
+    {
+      date: "2025",
+      name: "Driving Costs: An End-to-End COE Data Pipeline & Dashboard",
+      description: "Built a full ETL pipeline to collect, transform, and visualize Singapore’s Certificate of Entitlement (COE) bidding data using Python. Developed interactive dashboards to explore long-term trends, pricing volatility, and data-driven insights on whether it's a good time to buy a car in Singapore.",
+      livesite_link: "",
+      github_link: "",
+      skills: ["ETL", "Python", "Streamlit", "Pandas", "NumPy", "Matplotlib", "Plotly", "Data Visualization", "Data Preprocessing", "Data Analysis"],
+      image_url: "",
+      coming_soon: true,
     },
     {
       date: "2025",
