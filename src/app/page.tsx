@@ -46,7 +46,7 @@ export default function Home() {
             </div>
 
             <div className="resume">
-              <MyLink href={'/Jonathan_Koh_Resume_Analyst_2025.pdf'}>
+              <MyLink href={'/Jonathan_Koh_Resume_Analyst_Data_Scientist.pdf'}>
                   view resume
               </MyLink>
             </div>
