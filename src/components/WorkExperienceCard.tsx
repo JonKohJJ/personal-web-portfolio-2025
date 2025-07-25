@@ -36,7 +36,7 @@ export const WorkExperience = [
       date: "NOV 2023 - PRESENT",
       title: "Fullstack Software Engineer",
       company: "Singapore Press Holdings (SPH)",
-      description: "I build dynamic UIs and maintain backend services using NodeJS and Python for reliable content delivery. Working within agile teams, I contribute to feature planning, ensure code quality, and integrate third-party services. Currently focused on developing an internal analytics platform that enables teams to create audience segments through custom data queries and provides actionable insights via scalable, data-driven interfaces.",
+      description: "Built a self-service audience segmentation platform enabling internal teams to generate targeted user segments without writing SQL for data-driven campaigns. Led the Web2 transition of Zaobao’s online newspaper, developing performant systems using React, Node.js, and AWS. Collaborated in agile teams to translate business needs into impactful, data-informed technical solutions.",
       skills: ["Typescript", "Python", "Reactjs", "Tailwind", "Nodejs", "AWS"]
     },
     {

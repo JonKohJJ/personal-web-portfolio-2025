@@ -4,10 +4,12 @@ import React, { ReactNode } from 'react'
 
 export default function MyLink({
     href,
-    children
+    children,
+    showArrow = true
 } : {
     href: string
     children: ReactNode
+    showArrow?: boolean
 }) {
     return (
         <Link
@@ -16,7 +18,9 @@ export default function MyLink({
             <p className="after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:h-[1px] after:w-full after:scale-x-0 after:bg-black after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100">
                 {children}
             </p>
-            <ArrowUpRight className="w-3 h-3 ml-1" />
+            {showArrow && 
+                <ArrowUpRight className="w-3 h-3 ml-1" />
+            }
         </Link>
     )
 }

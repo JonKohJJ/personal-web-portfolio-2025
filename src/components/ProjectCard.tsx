@@ -85,16 +85,6 @@ export const FeaturedProjects = [
     },
     {
       date: "2025",
-      name: "Mortgage Loan & Amortisation Calculator",
-      description: "Built a user-friendly mortgage calculator with real-time inputs and dynamic amortisation tables. Designed for clarity and usability, enabling users to understand monthly payments, interest accumulation, and total repayment costs over time.",
-      livesite_link: "",
-      github_link: "",
-      skills: ["Python", "Streamlit", "Data Visualization", "Financial Modeling"],
-      image_url: "",
-      coming_soon: true,
-    },
-    {
-      date: "2025",
       name: "Driving Costs: An End-to-End COE Data Pipeline & Dashboard",
       description: "Built a full ETL pipeline to collect, transform, and visualize Singapore’s Certificate of Entitlement (COE) bidding data using Python. Developed interactive dashboards to explore long-term trends, pricing volatility, and data-driven insights on whether it's a good time to buy a car in Singapore.",
       livesite_link: "",
