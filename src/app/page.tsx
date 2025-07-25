@@ -30,7 +30,7 @@ export default function Home() {
             <div className="profile-top flex flex-col gap-4 mb-4">
               <p className="text-4xl font-bold">Jonathan Koh</p>
               <p>Fullstack Software Engineer @ Singapore Press Holdings</p>
-              <p className="text-sm italic">Building robust, enjoyable software — lately leaning into data, analytics and end-to-end business impact.</p>
+              <p className="text-sm italic">Building robust, enjoyable software — lately leaning into data engineering, statistical analysis and end-to-end business impact.</p>
             </div>
 
             <div className="socials">
