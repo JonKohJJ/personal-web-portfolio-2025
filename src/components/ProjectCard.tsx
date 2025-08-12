@@ -66,7 +66,7 @@ export default function ProjectCard({
 export const FeaturedProjects = [
     {
         date: '2025',
-        name: 'Fullstack: Tithely End Game – Full-Stack Budgeting & Expense Management SaaS Application',
+        name: 'Tithely End Game – Full-Stack Budgeting & Expense Management SaaS Application',
         description:
             'Built a robust full-stack SaaS app to help users track personal expenses, set budgets, and manage finances efficiently. Features real-time updates, intuitive UI, and data persistence, designed for daily use and long-term financial planning.',
         livesite_link: 'https://tithely-end-game.vercel.app/',
@@ -94,6 +94,16 @@ export const FeaturedProjects = [
         livesite_link: 'https://jonkohjj.github.io/chrono-cam/',
         github_link: 'https://github.com/JonKohJJ/chrono-cam',
         skills: ['Python', 'FastAPI', 'Nextjs', 'TypeScript', 'Tailwind'],
+        image_url: './images/tithely.png',
+    },
+    {
+        date: '2025',
+        name: 'Software-as-a-Service (SaaS) Starter Template - Fast & Easy Setup',
+        description:
+            'Rapidly build fullstack SaaS Apps with a ready-to-use template with authentication, billing, and database integration to quickly launch and scale SaaS applications.',
+        livesite_link: '',
+        github_link: '',
+        skills: ['Next.js', 'Tailwind CSS', 'Shadcn UI', 'Clerk (Auth & Billing)', 'Convex (DB)'],
         image_url: './images/tithely.png',
     },
     {
