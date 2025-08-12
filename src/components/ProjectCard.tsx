@@ -91,11 +91,10 @@ export const FeaturedProjects = [
         name: 'Chrono Cam',
         description:
             'A web platform displaying camera brands, series, and models in timelines for buyers and enthusiasts to explore the market evolution.',
-        livesite_link: '',
-        github_link: '',
+        livesite_link: 'https://jonkohjj.github.io/chrono-cam/',
+        github_link: 'https://github.com/JonKohJJ/chrono-cam',
         skills: ['Python', 'FastAPI', 'Nextjs', 'TypeScript', 'Tailwind'],
         image_url: '',
-        coming_soon: true,
     },
     {
         date: '2025',
