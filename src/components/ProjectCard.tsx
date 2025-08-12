@@ -11,7 +11,7 @@ export default function ProjectCard({
     github_link,
     skills,
     image_url,
-    coming_soon,
+    coming_soon = false,
 }: {
     date: string
     name: string
@@ -88,13 +88,13 @@ export const FeaturedProjects = [
     },
     {
         date: '2025',
-        name: 'Chrono Cam',
+        name: 'Chrono Cam – Camera Market Timeline & Model Explorer',
         description:
             'A web platform displaying camera brands, series, and models in timelines for buyers and enthusiasts to explore the market evolution.',
         livesite_link: 'https://jonkohjj.github.io/chrono-cam/',
         github_link: 'https://github.com/JonKohJJ/chrono-cam',
         skills: ['Python', 'FastAPI', 'Nextjs', 'TypeScript', 'Tailwind'],
-        image_url: '',
+        image_url: './images/tithely.png',
     },
     {
         date: '2025',
