@@ -94,7 +94,7 @@ export const FeaturedProjects = [
         livesite_link: 'https://jonkohjj.github.io/chrono-cam/',
         github_link: 'https://github.com/JonKohJJ/chrono-cam',
         skills: ['Python', 'FastAPI', 'Nextjs', 'TypeScript', 'Tailwind'],
-        image_url: './images/tithely.png',
+        image_url: './images/chronocam.png',
     },
     {
         date: '2025',
