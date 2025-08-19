@@ -63,7 +63,7 @@ export default function ProjectCard({
     )
 }
 
-export const FeaturedProjects = [
+export const FeaturedProjects_WebDev = [
     {
         date: '2025',
         name: 'Tithely End Game – Full-Stack Budgeting & Expense Management SaaS Application',
@@ -106,6 +106,9 @@ export const FeaturedProjects = [
         skills: ['Next.js', 'Tailwind CSS', 'Shadcn UI', 'Clerk (Auth & Billing)', 'Convex (DB)'],
         image_url: './images/tithely.png',
     },
+]
+
+export const FeaturedProjects_DataEngineering = [
     {
         date: '2025',
         name: 'Data Warehouse: Structuring Raw Data for Analysis',
@@ -123,28 +126,6 @@ export const FeaturedProjects = [
             'SQL',
             'Data Warehousing',
         ],
-        image_url: '',
-        coming_soon: true,
-    },
-    {
-        date: '2025',
-        name: "COE Exploratory Data Analysis (EDA): Understanding Singapore's Car Ownership Costs",
-        description:
-            "Performed exploratory data analysis on Singapore's Certificate of Entitlement (COE) bidding data to understand why it's so expensive to own a car. Profiled the data, analyzed historical trends, and explored category-wise price changes and volatility over time.",
-        livesite_link: '',
-        github_link: '',
-        skills: ['EDA', 'SQL', 'Data Profiling', 'Aggregations', 'Filtering', 'Time Series', 'Subqueries'],
-        image_url: '',
-        coming_soon: true,
-    },
-    {
-        date: '2025',
-        name: 'Advanced Analytics: Business Insights Through Complex Queries',
-        description:
-            'Answered key business questions using advanced SQL techniques, including window functions, CTEs, subqueries, and report generation. Delivered actionable insights for stakeholders through well-structured analytics outputs.',
-        livesite_link: '',
-        github_link: '',
-        skills: ['Advanced SQL', 'Window Functions', 'CTEs', 'Subqueries', 'Analytics', 'Business Intelligence'],
         image_url: '',
         coming_soon: true,
     },
